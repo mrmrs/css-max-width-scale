@@ -30,7 +30,7 @@ or download the css on github and include in your project.
 .mx-wi9  {  max-width: 96rem; }
 .mx-wi10 {  max-width: 128rem; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .mx-wi1-ns  {    max-width: 1rem; }
   .mx-wi2-ns  {    max-width: 2rem; }
   .mx-wi3-ns  {    max-width: 4rem; }
@@ -43,7 +43,7 @@ or download the css on github and include in your project.
   .mx-wi10-ns {    max-width: 128rem; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .mx-wi1-m  {    max-width: 1rem; }
   .mx-wi2-m  {    max-width: 2rem; }
   .mx-wi3-m  {    max-width: 4rem; }
@@ -56,7 +56,7 @@ or download the css on github and include in your project.
   .mx-wi10-m {    max-width: 128rem; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .mx-wi1-l  {    max-width: 1rem; }
   .mx-wi2-l  {    max-width: 2rem; }
   .mx-wi3-l  {    max-width: 4rem; }
