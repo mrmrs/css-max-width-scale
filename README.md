@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-max-width-scale)
 ## File Size
 
 1.6K max-width-scale.css
-1.1K max-width-scale.min.css
+1.1K max-width-scale.min.css 
+241B minified and gzipped
 
 ## The Code
 ```
