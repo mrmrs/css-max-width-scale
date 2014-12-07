@@ -1,5 +1,6 @@
 {
   "name": "css-max-width-scale",
+  "style": "max-width-scale.css",
   "version": "0.0.4",
   "homepage": "http://github.com/mrmrs/css-max-width-scale",
   "description": "Css module of single purpose classes for max width scale",
