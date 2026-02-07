@@ -14,16 +14,16 @@
 .mx-wi10 {  max-width: 128rem; }
 
 @media screen and (min-width: 48em) {
-  .mx-wi1-ns  {    max-width: 1rem; }
-  .mx-wi2-ns  {    max-width: 2rem; }
-  .mx-wi3-ns  {    max-width: 4rem; }
-  .mx-wi4-ns  {    max-width: 8rem; }
-  .mx-wi5-ns  {    max-width: 16rem; }
-  .mx-wi6-ns  {    max-width: 32rem; }
-  .mx-wi7-ns  {    max-width: 48rem; }
-  .mx-wi8-ns  {    max-width: 64rem; }
-  .mx-wi9-ns  {    max-width: 96rem; }
-  .mx-wi10-ns {    max-width: 128rem; }
+  .mx-wi1-s  {    max-width: 1rem; }
+  .mx-wi2-s  {    max-width: 2rem; }
+  .mx-wi3-s  {    max-width: 4rem; }
+  .mx-wi4-s  {    max-width: 8rem; }
+  .mx-wi5-s  {    max-width: 16rem; }
+  .mx-wi6-s  {    max-width: 32rem; }
+  .mx-wi7-s  {    max-width: 48rem; }
+  .mx-wi8-s  {    max-width: 64rem; }
+  .mx-wi9-s  {    max-width: 96rem; }
+  .mx-wi10-s {    max-width: 128rem; }
 }
 
 @media screen and (min-width:48em) and (max-width: 64em) {
