@@ -1,38 +1,44 @@
 {
   "name": "css-max-width-scale",
-  "style": "max-width-scale.css",
-  "version": "1.0.7",
-  "homepage": "http://github.com/mrmrs/css-max-width-scale",
-  "description": "Css module of single purpose classes for max width scale",
+  "version": "2.0.0",
+  "description": "Functional CSS for max-width-scale",
+  "style": "dist/max-width-scale.css",
+  "main": "dist/max-width-scale.css",
+  "exports": {
+    ".": "./dist/max-width-scale.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "max-width-scale"
+    "max-width-scale",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-max-width-scale": {
+  "homepage": "https://github.com/mrmrs/css-max-width-scale",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-max-width-scale.git"
+    "url": "https://github.com/mrmrs/css-max-width-scale.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-max-width-scale/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-max-width-scale/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
