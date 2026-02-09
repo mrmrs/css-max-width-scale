@@ -13,7 +13,7 @@
 .mx-wi9  {  max-width: 96rem; }
 .mx-wi10 {  max-width: 128rem; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .mx-wi1-s  {    max-width: 1rem; }
   .mx-wi2-s  {    max-width: 2rem; }
   .mx-wi3-s  {    max-width: 4rem; }
@@ -26,7 +26,7 @@
   .mx-wi10-s {    max-width: 128rem; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .mx-wi1-m  {    max-width: 1rem; }
   .mx-wi2-m  {    max-width: 2rem; }
   .mx-wi3-m  {    max-width: 4rem; }
@@ -39,7 +39,7 @@
   .mx-wi10-m {    max-width: 128rem; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .mx-wi1-l  {    max-width: 1rem; }
   .mx-wi2-l  {    max-width: 2rem; }
   .mx-wi3-l  {    max-width: 4rem; }
